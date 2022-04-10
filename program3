@@ -1,0 +1,7 @@
+input_string= input("Enter the string:\n" )
+a= input_string[0:2]+input_string[-2:]
+b= len(input_string)
+if b < 2:
+    print("Empty String")
+else:
+    print(a)
