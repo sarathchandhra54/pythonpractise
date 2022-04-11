@@ -1,0 +1,8 @@
+input_string1= input("Enter the string 1:\n" )
+input_string2= input("Enter the string 2:\n" )
+a= input_string1[:2]
+b= input_string2[:2]
+input_string1=b+input_string1[2:]
+input_string2=a+input_string2[2:]
+input_string3= input_string1 + "\t" + input_string2
+print(input_string3)
