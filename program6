@@ -1,0 +1,10 @@
+input_string= input("Enter the string :\n" )
+output_string= input_string+"ing"
+a=len(input_string)
+if input_string[-3:] == "ing":
+ output_string2= input_string + "ly"
+ print(output_string2)
+elif a < 3 :
+ print(input_string)
+else:
+ print(output_string)
